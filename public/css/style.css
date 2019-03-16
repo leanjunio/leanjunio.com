@@ -1,0 +1,106 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @leanjunio Sign out
+1
+0 0 leanjunio/leanjunio.github.io
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+leanjunio.github.io/style.css
+@leanjunio leanjunio changed font
+5f7b92e  on Nov 6, 2017
+89 lines (68 sloc)  1.1 KB
+    
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Elements */
+i {
+  color: white;
+  font-size: 4rem;
+}
+
+img {
+  transition: box-shadow 0.80s ease;
+}
+
+img:hover {
+  box-shadow: inset 0px 0 5px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul.social > li {
+  padding: 7px;
+  display: inline;
+}
+
+li > a {
+  color: white;
+}
+
+/* IDs */
+
+#introduction {
+  background: linear-gradient(rgb(224, 241, 255), rgba(209, 209, 209, 0.8)), url('http://anguerde.com/pics/main/38/342732-minimal.jpg') 0% 0%/cover;
+}
+
+#footer {
+  border-top: 0.1px white solid;
+}
+/* Classes */
+
+.center {
+  margin: 0 auto;
+}
+
+.navigation {
+  background: transparent;
+}
+
+.fill-viewport {
+  min-height: 100vh;
+}
+
+.fill-viewport-80 {
+  min-height: 80vh;
+}
+
+.fill-viewport-40 {
+  min-height: 30vh;
+}
+
+.fill-viewport-50 {
+  min-height: 40vh;
+}
+
+.fill-viewport-30 {
+  min-height: 27vh;
+}
+
+.size-15 {
+  font-size: 15pt;
+}
+
+.height-50 {
+  min-height: 300px;
+}
+
+.width-400 {
+  width: 400px;
+}
+
+.profile {
+  box-shadow: 0px 5px 13px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
